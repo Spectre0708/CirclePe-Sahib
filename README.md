@@ -1,16 +1,11 @@
-# Below are the screen shots attached for reference
+# I've atached some screen shots for the reference
+# Home Page
 ![Screenshot 2024-09-03 004627](https://github.com/user-attachments/assets/17ed7cc8-9fab-4d9a-904d-3fb92372ecc0)
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2024-09-03 004652](https://github.com/user-attachments/assets/bca996e2-6c0c-4a8e-97e0-445ce7146546)
+# Tenure selection and payment page
+![Screenshot 2024-09-03 004456](https://github.com/user-attachments/assets/cce89904-b015-4562-a4b9-0dc3b0c5d32a)
+# Payment confirmation page
+![Screenshot 2024-09-03 004408](https://github.com/user-attachments/assets/3dae71fe-b62e-4013-9524-3d235934a765)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
