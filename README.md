@@ -6,6 +6,11 @@
 ![Screenshot 2024-09-03 004456](https://github.com/user-attachments/assets/cce89904-b015-4562-a4b9-0dc3b0c5d32a)
 # Payment confirmation page
 ![Screenshot 2024-09-03 004408](https://github.com/user-attachments/assets/3dae71fe-b62e-4013-9524-3d235934a765)
+# Responsive cross platform
+![WhatsApp Image 2024-09-03 at 20 51 35_f05bc5cd](https://github.com/user-attachments/assets/cf4609d9-b447-4e14-b827-9d4fac740d80)
+![WhatsApp Image 2024-09-03 at 20 51 34_9b0ea38f](https://github.com/user-attachments/assets/4d3cc556-99dc-4c53-b221-fa727a0c771b)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
