@@ -24,7 +24,7 @@ const PaymentApproved = ({ onReturnHome }) => {
 
       <button
         onClick={onReturnHome}
-        className="mt-6 bg-primary text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-200"
+        className="mt-6 bg-blue-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-primary transition duration-200"
       >
         Return to Home
       </button>

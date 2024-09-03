@@ -92,7 +92,7 @@ const TransactionReview = ({ property, onBack }) => {
       {/* Responsive Pay Button */}
       <button
         onClick={handlePayment}
-        className="mt-4 w-full bg-primary text-white py-3 rounded-lg shadow-lg hover:bg-blue-600 transition duration-200"
+        className="mt-4 w-full bg-blue-600 text-white py-3 rounded-lg shadow-lg hover:bg-primary transition duration-200"
       >
         Pay with Circle
       </button>
