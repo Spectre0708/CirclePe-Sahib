@@ -1,15 +1,16 @@
 # I've atached some screen shots for the reference
 # Home Page
-![Screenshot 2024-09-03 004627](https://github.com/user-attachments/assets/17ed7cc8-9fab-4d9a-904d-3fb92372ecc0)
-![Screenshot 2024-09-03 004652](https://github.com/user-attachments/assets/bca996e2-6c0c-4a8e-97e0-445ce7146546)
-# Tenure selection and payment page
-![Screenshot 2024-09-03 004456](https://github.com/user-attachments/assets/cce89904-b015-4562-a4b9-0dc3b0c5d32a)
-# Payment confirmation page
-![Screenshot 2024-09-03 004408](https://github.com/user-attachments/assets/3dae71fe-b62e-4013-9524-3d235934a765)
-# Responsive cross platform
-![WhatsApp Image 2024-09-03 at 20 51 35_f05bc5cd](https://github.com/user-attachments/assets/cf4609d9-b447-4e14-b827-9d4fac740d80)
-![WhatsApp Image 2024-09-03 at 20 51 34_9b0ea38f](https://github.com/user-attachments/assets/4d3cc556-99dc-4c53-b221-fa727a0c771b)
+![image](https://github.com/user-attachments/assets/2a97c67a-4849-48ab-8811-1f3ab89b1142)
+# Like button
+![image](https://github.com/user-attachments/assets/ad8c1bd7-5847-404c-8601-37536346a929)
 
+# Tenure selection,confirmation and payment page
+![image](https://github.com/user-attachments/assets/cd7210a2-704b-495b-95eb-441b4712dd4f)
+![image](https://github.com/user-attachments/assets/5969e282-67be-420a-b1c8-0198cc2ff767)
+
+# Payment confirmation page
+![image](https://github.com/user-attachments/assets/47d68d06-fee2-4dd4-9a35-39d0c2199b1e)
+![image](https://github.com/user-attachments/assets/7d122cc4-579f-4f15-90e6-e871b171f3c6)
 
 # Getting Started with Create React App
 
