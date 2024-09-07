@@ -20,7 +20,9 @@ const PaymentApproved = ({ onReturnHome }) => {
         </svg>
       </div>
       <h1 className="text-2xl font-bold mt-4 text-gray-800">Payment Approved</h1>
-      <p className="text-gray-600 mt-2">Thank you for your payment. Your transaction has been successfully processed.</p>
+      <p className="text-gray-600 mt-2">
+        Thank you for your payment. Your transaction has been successfully processed.
+      </p>
 
       <button
         onClick={onReturnHome}
@@ -32,4 +34,4 @@ const PaymentApproved = ({ onReturnHome }) => {
   );
 };
 
-export default PaymentApproved;
+export default PaymentApproved;  // Ensure this is the only default export

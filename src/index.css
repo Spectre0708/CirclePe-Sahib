@@ -1,119 +1,125 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Background and Text Colors */
+.bg-primary {
+  background-color: #f7f8fc; /* Updated primary background color */
+}
+
+.text-primary {
+  color: #007bff; /* Updated primary text color */
+}
+
+/* Buttons */
+.period-button {
+  transition: all 0.3s ease;
+}
+
+.period-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pay-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  .p-4 {
+    padding: 1rem;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .period-button {
+    flex: 1;
+    text-align: center;
+  }
+
+  .pay-button {
+    font-size: 1rem;
+  }
+
+  button.absolute {
+    top: 1rem;
+    left: 1rem;
+  }
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-button {
+  animation: slideInLeft 0.5s ease-out forwards;
+}
+
+.back-button.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 /* index.css */
-.bg-primary {
-    background-color: #f7f8fc;
-  }
-  
-  .text-primary {
-    color: #007bff;
-  }
-  
-  .period-button {
-    transition: all 0.3s ease;
-  }
-  
-  .period-button.active {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .pay-button {
-    background-color: #007bff;
-    color: #fff;
-  }
-  /* index.css */
-.bg-primary {
-    background-color: #f7f8fc;
-  }
-  
-  .text-primary {
-    color: #007bff;
-  }
-  
-  /* Buttons */
-  .period-button {
-    transition: all 0.3s ease;
-  }
-  
-  .period-button.active {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .pay-button {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  button {
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
-  }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 640px) {
-    .p-4 {
-      padding: 1rem;
-    }
-    
-    .w-full {
-      width: 100%;
-    }
-  
-    .rounded-lg {
-      border-radius: 0.5rem;
-    }
-  
-    .period-button {
-      flex: 1;
-      text-align: center;
-    }
-  
-    .pay-button {
-      font-size: 1rem;
-    }
-  
-    button.absolute {
-      top: 1rem;
-      left: 1rem;
-    }
-  }
-  /* index.css */
 
 /* Existing styles... */
 
-@keyframes slideInLeft {
-    from {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .back-button {
-    animation: slideInLeft 0.5s ease-out forwards;
-  }
-  
-  .back-button.hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 640px) {
-    /* Existing responsive styles... */
-  }
-  
+/* index.css */
+
+/* Existing styles... */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #e5e7eb;
+  z-index: 1000;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Ensure there's enough space at the bottom of the page content */
+.flex-grow {
+  padding-bottom: 3rem; /* Adjust as needed to accommodate the footer height */
+}
+
+/* Hover and active states for buttons */
+footer button:hover {
+  color: #003263;
+}
+
+footer button {
+  transition: color 0.3s ease;
+}
+
