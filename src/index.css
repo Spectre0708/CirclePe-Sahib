@@ -62,9 +62,10 @@ button:focus {
     font-size: 1rem;
   }
 
+  /* Like button fix for mobile - stays on the top right */
   button.absolute {
-    top: 1rem;
-    left: 1rem;
+    top: 0.5rem;
+    right: 0.5rem;
   }
 }
 
@@ -88,6 +89,7 @@ button:focus {
   opacity: 0;
   pointer-events: none;
 }
+
 /* index.css */
 
 /* Existing styles... */
@@ -122,4 +124,3 @@ footer button:hover {
 footer button {
   transition: color 0.3s ease;
 }
-

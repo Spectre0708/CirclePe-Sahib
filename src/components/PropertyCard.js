@@ -8,19 +8,24 @@ const PropertyCard = ({ image, title, location, price, onClick, isLiked, onLike 
       onClick={onClick}
     >
       {/* Like Button */}
-      <button
-        onClick={(e) => {
-          e.stopPropagation(); // Prevent click event from triggering onClick of the card
-          onLike();
-        }}
-        className="absolute top-2 right-2 p-2 rounded-full bg-white shadow-md hover:bg-gray-100 transition-colors duration-200"
-      >
-        {isLiked ? (
-          <AiFillHeart className="text-red-500" size={24} />
-        ) : (
-          <AiOutlineHeart className="text-gray-500" size={24} />
-        )}
-      </button>
+      <div className="flex justify-between items-start p-2">
+        <div>
+          {/* Space for additional information on the left if needed */}
+        </div>
+        <button
+          onClick={(e) => {
+            e.stopPropagation(); // Prevent click event from triggering onClick of the card
+            onLike();
+          }}
+          className="p-2 rounded-full bg-white shadow-md hover:bg-gray-100 transition-colors duration-200"
+        >
+          {isLiked ? (
+            <AiFillHeart className="text-red-500" size={24} />
+          ) : (
+            <AiOutlineHeart className="text-gray-500" size={24} />
+          )}
+        </button>
+      </div>
 
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4">
